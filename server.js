@@ -620,7 +620,7 @@ io.on('connection', function(socket) {
     })
 });
 
-var omeglePortNumber = 3000;
+var omeglePortNumber = 5000;
 httpServer.listen(omeglePortNumber, function() {
     console.log('Listening on port ' + omeglePortNumber + ', searching for omegle servers...');
 });
