@@ -2,13 +2,17 @@
 omegleSettings = {
     // Default topics
     defaultTopics: [
-        'noMultiRP ',   // This topic will cause the bots to disconnect if they connect to each other
-        'rp',
-        'roleplay'
+        'cashapp ',   // This topic will cause the bots to disconnect if they connect to each other
+        'venmo',
+        'google pay',
+		'amazon pay',
+		'subscribe',
+		'premium',
+		'paypal'
     ].join(),
 
     // The default message to send to people
-    defaultMessage: 'Please make a copy of static/js/settings_example.js, and call it static/js/settings.js',
+    defaultMessage: '',
 
     // Extra params to add
     bonusParams: {

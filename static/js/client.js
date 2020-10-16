@@ -1897,7 +1897,7 @@ pain.prototype.autoDisconnect = function(client_id, delay, delay2) {
         // Give a short delay before sending the message
         setTimeout(function() {
             // Check if the same client is connected
-            if(p.getClientId() == client_id && !p.hasTyped && !p.hasSpoken && p.ignoreBots.is(':checked') && !p.wontAutoDisconnect) {
+            if(p.getClientId() == client_id) {
                 // Disconnect
                 p.painMap.doDisconnect(client_id, null, 'Disconnected: Slow responder or bot.');
                 return;
