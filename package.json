@@ -1,6 +1,7 @@
 {
   "name": "OmegleMiddleMan",
   "description": "A test omegle project",
+	"main": "app.js",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
